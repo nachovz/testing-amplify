@@ -1,0 +1,22 @@
+{
+    "shared": {
+        "resourceName": "unicornflix",
+        "bucketInput": "unicornflix-dev-input-yh982p8t",
+        "bucketOutput": "unicornflix-dev-output-yh982p8t",
+        "bucket": "amplify-unicornflix-dev-155603-deployment"
+    },
+    "template": {
+        "name": "Amplify_Video_Ott_Hls_Ts_Avc_Aac.json"
+    },
+    "contentDeliveryNetwork": {
+        "enableDistribution": false
+    },
+    "cms": {
+        "editAPI": true
+    },
+    "parameters": {
+        "authRoleName": {
+            "Ref": "AuthRoleName"
+        }
+    }
+}
